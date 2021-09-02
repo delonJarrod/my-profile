@@ -29,17 +29,34 @@ function Header() {
               <div className={classes.divide}>
                 <div className={classes.margin}>
                   <div className="text-3xl md:text-4xl">
-                    <h1 data-aos="fade-down" data-aos-duration="1500">
+                    <h1
+                      data-aos="fade-down-right"
+                      data-aos-delay="300"
+                      data-aos-duration="1500"
+                    >
                       Delon J. Naidoo
                     </h1>
                   </div>
-                  <div className="text-xl md:text-2xl mb-10">
+                  <div
+                    data-aos="fade-down-right"
+                    data-aos-duration="1500"
+                    className="text-xl md:text-2xl mb-10"
+                  >
                     <h4>Software Developer</h4>
                   </div>
-                  <div className="text-3xl md:text-4xl mb-5">
+                  <div
+                    data-aos="fade-up-right"
+                    data-aos-duration="1500"
+                    className="text-3xl md:text-4xl mb-5"
+                  >
                     <h1>About me</h1>
                   </div>
-                  <div className="text-md md:text-md pb-5">
+                  <div
+                    data-aos="fade-up-right"
+                    data-aos-delay="300"
+                    data-aos-duration="1500"
+                    className="text-md md:text-md pb-5"
+                  >
                     <p>
                       I am a hardworking and diligent young man with a positive
                       outlook. I work well as part of a team or individually. I

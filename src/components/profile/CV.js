@@ -126,9 +126,9 @@ function CV() {
                 </div>
               </Col>
               <Col className={classes.socials}>
-                <Row className="lg:pb-20 justify-center pl-20">
-                  <div className="flex flex-col md:flex-row mt-4 gap-10 md:gap-20 ">
-                    <div className="flex gap-10 md:gap-20">
+                <Row className="lg:pb-20 pb-10 justify-center pl-10 mx-auto">
+                  <div className="flex flex-col md:flex-row mt-4  ">
+                    <div className="flex gap-10 gap-5 md:gap-20">
                       <div className="flex-col">
                         <a
                           className={classes.facebook}
@@ -137,7 +137,7 @@ function CV() {
                           href="https://www.facebook.com/jarrod.naidoo.18"
                         >
                           <i
-                            className="fab fa-facebook fa-3x green pr-3"
+                            className="fab fa-facebook fa-3x green"
                             aria-hidden="false"
                           />
                         </a>
@@ -150,13 +150,11 @@ function CV() {
                           href="https://www.instagram.com/jarrod_thatguy/"
                         >
                           <i
-                            className="fab fa-instagram fa-3x green pr-3"
+                            className="fab fa-instagram fa-3x green"
                             aria-hidden="true"
                           />
                         </a>
                       </div>
-                    </div>
-                    <div className="flex gap-10 md:gap-20">
                       <div className="flex-col">
                         <span>
                           <a
@@ -165,11 +163,14 @@ function CV() {
                             href="https://github.com/delonJarrod"
                             target="_blank"
                           >
-                            <i className="fab fa-git fa-3x green" />
+                            <i
+                              className="fab fa-git fa-3x green"
+                              aria-hidden="true"
+                            />
                           </a>
                         </span>
                       </div>
-                      <div className="flex-col pl-3 md:pl-0">
+                      <div className="flex-col">
                         <span>
                           <a
                             className={classes.twitter}

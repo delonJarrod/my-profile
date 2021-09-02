@@ -280,7 +280,7 @@ function Skills() {
                     </div>
                   </Col>
                   <Col>
-                    <div className="flex flex-wrap text-center justify-center">
+                    <div className="flex flex-col md:flex-row flex-wrap text-center justify-center">
                       {/* Logo 1 */}
                       <div>
                         <div className={classes.ReactContainer}>
