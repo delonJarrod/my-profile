@@ -1,0 +1,15 @@
+.btnOutlinePrimary {
+  color: #0d8f54;
+  background-color: transparent;
+  background-image: none;
+  border-color: #0d8f54;
+  border: 1px solid;
+  margin-bottom: 8px;
+  padding: 7px;
+  border: 2px solid #dee2e6;
+  border-radius: 0.5rem;
+}
+.btnOutlinePrimary:hover {
+  color: white;
+  background-color: #0d8f54;
+}
