@@ -1,0 +1,29 @@
+.cardBody {
+  border: black;
+  width: 100%;
+  margin: auto;
+  height: 600px;
+}
+
+.card {
+  border: black;
+  border-radius: 20x;
+  border-width: 2px;
+  height: 600px;
+}
+
+.Inner {
+  padding-top: 3%;
+  padding-bottom: 10%;
+}
+
+.img {
+  margin: auto;
+  padding-left: 38%;
+  padding-bottom: 2%;
+}
+
+.header {
+  padding-top: 10%;
+  padding-left: 3%;
+}

@@ -1,0 +1,44 @@
+.dashboardContent {
+  margin: auto;
+}
+
+.gramsImg {
+  margin: auto;
+  width: 510px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.vapeImg {
+  margin: auto;
+  width: 800px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.edibles {
+  margin: auto;
+  width: 800px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .vapeImg {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .edibles {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .gramsImg {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}

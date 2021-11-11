@@ -1,0 +1,9 @@
+.SignUp {
+  margin-left: 20%;
+}
+
+@media (min-width: 600px) {
+  .SignUp {
+    margin-left: 500px;
+  }
+}

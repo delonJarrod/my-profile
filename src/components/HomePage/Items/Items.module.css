@@ -1,0 +1,13 @@
+.grams {
+  margin-left: 10%;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+@media (max-width: 400px) {
+  .grams {
+    padding: 5%;
+    margin-left: 0%;
+    border-radius: 20px;
+  }
+}
